@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* @ ranking uio */
+#ranking{position:relative;width:436px;padding:29px 0 15px;background:#555}
+#ranking h3,#ranking p{margin:0;padding:0}
+#ranking h3{float:left;color:#fff}
+#ranking p{float:right;color:#fff}
+#ranking .header,#ranking .container{width:396px;margin:0 auto}
+#ranking .header{margin-bottom:20px}
+#ranking ul{display:block;width:100%;margin:0 auto}
+#ranking li{overflow:hidden;height:48px;margin:0 0 5px;background:#333;font-size:12px;line-height:48px;color:#c6c6c6;position:relative;}
+#ranking li .item {position:relative;}
+#ranking li a{color:#c6c6c6;text-decoration:none}
+#ranking li a:focus,#ranking li a:hover,#ranking li a:active{color:#fff}
+#ranking li span.rank1,#ranking li span.rank2,#ranking li span.rank3{color:#ffcc4d}
+#ranking li span{display:inline-block;float:left;}
+#ranking li span.issue_rank{width:38px;text-align:center}
+#ranking li span.issue_broadcaster{width:90px;margin-left:10px}
+#ranking li span.issue_title{width:190px;margin-left:10px}
+#ranking li span.issue_percentage{width:55px;background:none;text-align:center}
